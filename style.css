@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    height: 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.landing {
+    padding: 10px;
+    margin-top: 4%;
+}
+
+
+a:link {
+    color: rgba(0, 147, 121, 1);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.p1 button, .p2 button {
+    color: rgba(0, 147, 121, 1);
+    font-weight: 700;
+}
+.p3 button{
+    font-weight: 700;
+}
+
+.button2 {
+    background-color: rgba(0, 147, 121, 1);
+    color: white;
+}
+
+.button1 {
+    background-color: rgba(229, 244, 242, 1);
+    color: rgba(0, 147, 121, 1);
+}
+.button1 :hover{
+    background-color: rgba(229, 244, 242, 1);
+    color: rgba(0, 147, 121, 1);
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.page1 {
+    margin: 47px;
+    padding: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+.page1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 67px;
+}
+
+.page1 p {
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 90%;
+}
+
+hr {
+    width: 77%;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.header {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 200px;
+
+}
+
+.cardn1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+.card {
+    height: 20%;
+    width: 18%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px lavender;
+}
+
+.card p {
+    padding: 20px;
+}
+
+.card span p {
+    color: rgba(0, 147, 121, 1);
+    font-weight: 600;
+}
+
+.child {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.child span{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid rgb(255, 194, 204);
+    box-shadow: 10px 10px 30px lavender;
+    height: 67px;
+    width: 146px;
+    padding: 20px;
+}
+.ui{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 23%;
+}
+.ui h1, p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.ui button{
+    margin-top: 30px;
+    padding: 15px 35px;
+    border-radius: 20px;
+    background-color: rgba(0, 147, 121, 1);
+    color: white;
+}
+.ui h1
+{
+    width: 75%;
+}
+.ui p{
+    width: 85%;
+}
+.rating{
+    display: flex;
+justify-content: space-evenly;
+}
+.cards{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 21%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px lavender;
+
+}
+.pricing{
+    display: flex;
+justify-content: space-evenly;
+}
+.pricing-card {
+    padding: 20px;
+    margin: 20px;
+    width: 21%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px lavender;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+.pricing-card button {
+    background-color: rgba(229, 244, 242, 1);
+    width: 100%;
+    margin-top: 46px;
+}
+.p3{
+    background-color:rgba(0, 147, 121, 1) ;
+    color: white;
+}
+.p3 button{
+    
+    color: rgba(0, 147, 121, 1);
+    background-color: white;
+}
+.members{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+.member1, .member2, .member3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    box-shadow: 10px 10px 30px lavender;
+    border-radius: 23px;
+}
+.social{
+    margin-top: 30px;
+}
+.hr{
+    width: auto;
+    margin-top: 30px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    margin: 12%;
+    border-radius: 23px;
+    /* border: 2px solid; */
+    background-color: rgba(242, 191, 175, 1);
+    
+}
+.banner h1, p{
+}
+.banner h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 57%;
+}
+.banner p{
+    width: 82%;
+}
+.banner button{
+    /* margin: 20px; */
+    background-color: rgba(0, 147, 121, 1);
+    color: white;
+}
+.touch {
+    
+    
+    margin: 7%;
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 0px 60px lavender;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.family-touch{
+    display: flex;
+    justify-content: start;
+    margin-top: 5%
+    
+}
+.full-name, .email {
+    padding: 6%;
+    margin: 2%;
+    height: 1%;
+    width: 23vw;
+    border-radius: 15px;
+    align-items: center;
+    border:2px solid rgb(162, 162, 162) ;
+}
+
+.touch2 input{
+    border-style: none;
+    display: flex;
+    width: 23vw;
+    height: 3vh;
+
+    
+}
+.ph1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    padding: 5px;
+    display: flex;
+    
+}
+.ph1 img{
+    padding: 0% 4% 0% 0%;
+}
+.Connect1{
+    padding: 8px;
+    margin-top: 35px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.Connect1 h2{
+    margin-bottom: 14px;
+}
+.Connect1 img{
+    padding: 0 3%;
+}
+.full-name{
+    
+    display: flex;
+    padding-left: 10px;
+}
+.full-name i{
+    padding: 0% 4% 0% 4%;
+}
+.email{
+display: flex;
+    padding-left: 10px;
+}
+.email i{
+    padding: 0% 4% 0% 4%;
+}
+input:focus {
+    outline: none !important;
+}
+.touch2{
+    padding: 0% 0% 0% 30%;
+}
+.touch2 button{
+    padding: 6%;
+    width: 16vw;
+    margin: 3%;
+    background-color: rgba(0, 147, 121, 1);
+    color: white;
+    border-radius: 15px;
+}
+
+.touch2 button:hover{
+    background-color: rgba(229, 244, 242, 1);
+    color: rgba(0, 147, 121, 1);
+    cursor: pointer;
+}
+
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(46, 42, 42);
+    color: white;
+    text-align: center;
+}
+
+.custom{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.banner-img{
+    height: 100%;
+}
